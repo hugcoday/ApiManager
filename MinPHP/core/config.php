@@ -3,11 +3,12 @@ defined('API') or exit('http://gwalker.cn');
 return array(
     //数据库连接配置
     'db'=>array(
-        'host' => 'localhost',   //数据库地址
-        'dbname' => 'api',   //数据库名
-        'user' => 'root',    //帐号
-        'passwd' => '123456',    //密码
-        'linktype' => 'mysqli',    //数据库连接类型 支持mysqli与pdo两种类型
+        'host' => '192.168.1.179',   //数据库地址
+        'dbname' => 'a1b861af51a94',   //数据库名
+        'user' => 'efb1175a04c04',    //帐号
+        'passwd' => '6d0b8eef7a0b4',    //密码
+        'port' => '34342',
+        'linktype' => 'pdo',    //数据库连接类型 支持mysqli与pdo两种类型
     ),
     //session配置
     'session'=>array(

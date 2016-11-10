@@ -53,7 +53,7 @@
             switch ($type) {
                 case 'pdo': //pdo类型连接
                     try {
-                        $_model = new PDO("mysql:host={$db['host']};dbname={$db['dbname']}","{$db['user']}","{$db['passwd']}");
+                        $_model = new PDO("mysql:host={$db['host']};port={$db['port']}; dbname={$db['dbname']}","{$db['user']}","{$db['passwd']}");
                     } catch ( PDOException $e ) {
                         die ( "PDO unable to connect:" . $e->getMessage () );
                     }
